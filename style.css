@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+body {
+    
+}
+
+body > *:not(.footer){
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > * {
+    margin: 10px 200px;
+}
+
+header > .logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+header > .right-links {
+    margin-left: auto;
+}
+
+.right-links > a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+
+.top-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.top-content > * {
+    flex: 1;
+}
+
+.top-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-content-left > h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.top-content-left > *:not(h1) {
+    font-size: 18px;
+}
+
+.top-content-left > button {
+    color: white;
+    background: #3882F6;
+    font-weight: bold;
+    width: 120px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.top-content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.random-info > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card > img {
+    border-color: lime;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 0px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    align-self: flex-start;
+}
+
+
+.quote-credit {
+    font-weight: 900;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action > div {
+    display: flex;
+    background-color: #3882F6;
+    flex: 1;
+    padding: 60px 100px;
+    margin: 0px 200px;
+    border-radius: 10px;
+}
+
+.call-to-action > div > * {
+    color: white;
+}
+
+.cta-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action > div > button {
+    margin-left: auto;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: auto;
+    flex-basis: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
